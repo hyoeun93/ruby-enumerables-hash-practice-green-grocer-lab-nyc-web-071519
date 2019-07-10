@@ -27,9 +27,8 @@ def apply_coupons(cart, coupons)
       end
     end
     result[food] = info
-    result
-  end
   
+  result
 end
 
 def apply_clearance(cart)
